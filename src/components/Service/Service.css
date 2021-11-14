@@ -1,0 +1,62 @@
+.Service{
+    overflow: hidden;
+}
+.image-1{
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); 
+}
+
+.image-2{
+    width: 100%;
+}
+.service-text{
+    font-size: 10px;
+}
+.custom-button{
+    width: fit-content;
+    background: transparent;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border : 3px solid black;
+    display: block;
+    margin: 50px auto;
+}
+
+
+
+
+@media screen and (min-width:420px){
+    .service-text{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+}
+@media screen and (min-width:576px){
+    .service-text{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+}
+@media screen and (min-width:768px){
+    .service-text{
+        font-size: 27px;
+        font-weight: 500;
+    }
+    .custom-button{
+        width: 250px;
+        font-size: 20px;
+        padding: 20px 30px;
+    }
+}
+@media screen and (min-width:992px){
+    .service-text{
+        font-size: 35px;
+        
+    }
+}
+
+
+

@@ -15,7 +15,7 @@ const Header = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
            <img src={logo} alt="KREDEY" style={{height: "50px"}}/>
           </Typography>
-          <Button variant="outlined" color="inherit" style={{borderRadius: "30px"}}>
+          <Button  color="inherit" style={{borderRadius: "30px"}} sx={{border:{sm:1}}}>
             Sign In
           </Button>
         </Toolbar>
