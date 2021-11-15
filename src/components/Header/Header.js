@@ -10,7 +10,7 @@ const Header = () => {
         <Toolbar>
           
           <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
-           KREDEY
+           <img src={kredey} alt="" style={{height: "25px"}}/>
           </Typography>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
            <img src={logo} alt="KREDEY" style={{height: "50px"}}/>

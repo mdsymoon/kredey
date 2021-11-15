@@ -7,31 +7,33 @@ import PinterestIcon from "@mui/icons-material/Pinterest";
 
 const Footer = () => {
   return (
-    <main>
-      <div className="">
-        <div className="d-flex justify-content-evenly">
-          <div>
-            <p>About Us</p>
-            <p>Contact</p>
-          </div>
-          <div>
-            <p>Terms Of Service</p>
-            <p>Privacy Policy</p>
-          </div>
-          <div>
-            <p>FAQ's</p>
-            <p>Attribution</p>
+    <main className="container-fluid mt-4 mb-2">
+      <div className="row">
+        <div className="col-md-8 mb-3">
+          <div className="row">
+            <div className="col-6 col-sm-4 mb-3">
+              <p className="mb-0 text-primary">About Us</p>
+              <p className="mb-0 text-primary">Contact</p>
+            </div>
+            <div className="col-6 col-sm-4 mb-3">
+              <p className="mb-0 text-primary">Terms Of Service</p>
+              <p className="mb-0 text-primary">Privacy Policy</p>
+            </div>
+            <div className=" col-sm-4 ">
+              <p className="mb-0 text-primary">FAQ's</p>
+              <p className="mb-0 text-primary">Attribution</p>
+            </div>
           </div>
         </div>
-        <div className="text-center">
-          <FacebookIcon />
-          <InstagramIcon />
-          <LinkedInIcon />
-          <TwitterIcon />
-          <PinterestIcon />
+        <div className="col-md-4 mb-3">
+          <FacebookIcon sx={{fontSize: 40}}/>
+          <InstagramIcon sx={{fontSize: 40}}/>
+          <LinkedInIcon sx={{fontSize: 40}}/>
+          <TwitterIcon sx={{fontSize: 40}}/>
+          <PinterestIcon sx={{fontSize: 40}}/>
         </div>
-        <p className="text-center">Copyright ©2021 Kredey</p>
       </div>
+      <p className="text-center mb-0 ">Copyright ©2021 Kredey</p>
     </main>
   );
 };

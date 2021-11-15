@@ -54,8 +54,13 @@
 @media screen and (min-width:992px){
     .service-text{
         font-size: 35px;
-        
     }
+    .custom-button{
+        width: 400px;
+        font-size: 23px;
+        padding: 30px 40px;
+    }
+
 }
 
 
